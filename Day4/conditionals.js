@@ -31,6 +31,20 @@ if (sunIsShining) {
 }
 
 
+// using more than two conditions
+// if else if else
+
+
+let weather = 'sunny'
+if (weather === 'rainy') {
+    console.log('You need a rain coat')
+} else if (weather === 'cloudy') {
+    console.log('might get cold, get a jacket bruh') 
+} else if (weather === 'sunny') {
+    console.log('go out enjoy')
+} else {
+    console.log('no rain coat needed')
+}
 
 
 
