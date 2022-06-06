@@ -47,6 +47,50 @@ if (weather === 'rainy') {
 }
 
 
+// switch break
+
+let sky = 'sunny'
+switch (sky) {
+    case 'rainy':
+        console.log('you need umbrella')
+        break
+    case 'cloudy':
+        console.log('it might be cold')
+        break
+    case 'sunny':
+        console.log('go get tanned')
+        break
+    default:
+        console.log('no need of umbrella')
+}
+
+
+
+let numb = prompt('Enter number');
+switch (true) {
+  case numb > 0:
+    console.log('Number is positive');
+    break;
+  case numb == 0:
+    console.log('Numbers is zero');
+    break;
+  case numb < 0:
+    console.log('Number is negative');
+    break;
+  default:
+    console.log('Entered value was not a number');
+}
+
+//exercise
+
+let age = prompt('enter your age')
+if(age > 18) {
+    console.log('You are old enough to drive')
+} else if(age < 18) {
+    console.log('You are left with xx years to drive')
+}
+
+
 
 
 
